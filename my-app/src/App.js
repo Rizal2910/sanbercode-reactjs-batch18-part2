@@ -36,7 +36,7 @@ function App() {
           <a href="#" style={{"text-decoration": "none", color: "black"}}>Kirim</a>
         </button>
       </div>
-       <Timer start="100"/>
+       <Timer start="10"/>
       <Clock/>
     </div>
     
