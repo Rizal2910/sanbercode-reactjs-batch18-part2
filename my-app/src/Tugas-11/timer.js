@@ -34,7 +34,7 @@ class Timer extends Component{
   increase(){
     //update STATE setiap detik
     this.setState((state, props)=>({
-      time: parseInt(state.time) - 2
+      time: parseInt(state.time) - 1
     }))
   }
 
