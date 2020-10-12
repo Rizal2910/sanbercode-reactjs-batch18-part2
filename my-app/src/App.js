@@ -1,6 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import Timer from './Tugas-11/timer';
+import Clock from './Tugas-11/waktu';
 
 function App() {
   return (
@@ -34,8 +36,13 @@ function App() {
           <a href="#" style={{"text-decoration": "none", color: "black"}}>Kirim</a>
         </button>
       </div>
+       <Timer start="10"/>
+      <Clock/>
     </div>
+    
+    
   );
+  
 }
 
 
