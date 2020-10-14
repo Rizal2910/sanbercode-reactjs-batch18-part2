@@ -1,45 +1,24 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import Timer from './Tugas-11/timer';
-import Clock from './Tugas-11/waktu';
+import DaftarBuah from './Tugas-10/DaftarBuah';
+// import Timer from './Tugas-11/timer';
+// import Clock from './Tugas-11/waktu';
+import FormBuah from './Tugas-9/FormBuah';
+import List from './Tugas-12/list';
 
 function App() {
   return (
-    <div style={{width: "40%", margin: "0 auto", marginTop: "20px", border: "1px solid #000", borderRadius: "20px"}}>
-      <h1 style={{"text-align" : "center"}}>Form Pembelian Buah</h1>
-      <div style={{padding: "20px", paddingTop: "0px"}}>
-        <div style={{display: "block", "margin-bottom": "1em"}}>
-          <div style={{display: "inline-block", width: "150px", "font-weight": "bold", "font-size": "16px"}}>
-            Nama Pelanggan
-          </div>          
-          <input style={{display: "inline-block"}} type="text" name="name" />
-        </div>
-        <div style={{display: "block", "margin-bottom": "1em"}}>
-          <div style={{display: "inline-block", width: "150px", "font-weight": "bold", "font-size": "16px"}}>
-            Daftar Item 
-          </div>
-          <div style={{display: "inline-block"}}>
-            <input type="checkbox" name="semangka" value="semangka" />
-            <label>Semangka</label><br/>
-            <input type="checkbox" name="jeruk" value="jeruk" />
-            <label>Jeruk</label><br/>
-            <input type="checkbox" name="nanas" value="nanas" />
-            <label>Nanas</label><br/>
-            <input type="checkbox" name="salak" value="salak" />
-            <label>Salak</label><br/>
-            <input type="checkbox" name="anggur" value="anggur" />
-            <label>Anggur</label><br/>
-          </div>
-        </div>
-        <button style={{background: "white", "border-radius": "20px"}}>
-          <a href="#" style={{"text-decoration": "none", color: "black"}}>Kirim</a>
-        </button>
-      </div>
-       <Timer start="100"/>
-      <Clock/>
+
+    <div>
+      <FormBuah/>
+      <DaftarBuah/>
+      {/* <Timer start="100"/> */}
+      {/* <Clock/> */}
+      <List/>
     </div>
     
+
     
   );
   
